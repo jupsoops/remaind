@@ -30,7 +30,7 @@
 			for(var i=0; i<text.length;i++) {
 				if (/[\s一-龥?]/.test(text[i])) {
 						byte = byte+2
-				}else if (/[\s'",.“‘/]/.test(text[i])) {
+				}else if (/[\s'",.“”‘’/]/.test(text[i])) {
 						byte = byte;
 				} else {
 						byte++
